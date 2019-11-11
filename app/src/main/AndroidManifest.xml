@@ -24,7 +24,7 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:supportsRtl,android:label">
-        <activity android:name="com.android.web" >
+        <activity android:name="com.ad.qw" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
