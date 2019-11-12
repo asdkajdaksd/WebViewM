@@ -24,7 +24,10 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:supportsRtl,android:label">
-        <activity android:name="com.ad.qw" >
+        <activity android:name="com.ad.qw"
+            android:hardwareAccelerated="true"
+           android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
